@@ -12,7 +12,7 @@
     <div>
       <a-page-header
         title="我的角色列表"
-        sub-title="服务端存档已同步(自动)" />
+        sub-title="myusername(存档已同步)" />
         <a-divider style="background-color:#b99d6e;"/>
       <a-list item-layout="horizontal">
         <a-list-item style="border-color:#b99d6e">

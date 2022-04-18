@@ -11,7 +11,7 @@
 
 <template>
   <nav id="nav" class="drag fixed">
-    <div class="title">当前游戏: 暗黑2重置版(存档已同步)</div>
+    <div class="title">当前游戏: 暗黑2重置版-ReMoDDed(存档已同步)</div>
   </nav>
 </template>
 <style scoped>

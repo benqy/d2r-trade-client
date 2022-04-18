@@ -9,7 +9,44 @@
 </script>
 <template>
   <Container>
-    <div class="fixed">welcome</div>
+    <div>
+      <a-page-header
+        title="我的角色列表"
+        sub-title="服务端存档已同步(自动)" />
+        <a-divider style="background-color:#b99d6e;"/>
+      <a-list item-layout="horizontal">
+        <a-list-item style="border-color:#b99d6e">
+          <a-list-item-meta description="召唤亚马逊">
+            <template #title>
+              <a href="https://www.antdv.com/">mysumama</a>
+            </template>
+            <template #avatar>
+              <a-avatar src="https://joeschmoe.io/api/v1/random" />
+            </template>
+          </a-list-item-meta>
+        </a-list-item>
+        <a-list-item style="border-color:#b99d6e">
+          <a-list-item-meta description="开荒用电法">
+            <template #title>
+              <a href="https://www.antdv.com/">dianfa</a>
+            </template>
+            <template #avatar>
+              <a-avatar src="https://joeschmoe.io/api/v1/random" />
+            </template>
+          </a-list-item-meta>
+        </a-list-item>
+        <a-list-item style="border-color:#b99d6e">
+          <a-list-item-meta description="动物园">
+            <template #title>
+              <a href="https://www.antdv.com/">druuuuu</a>
+            </template>
+            <template #avatar>
+              <a-avatar src="https://joeschmoe.io/api/v1/random" />
+            </template>
+          </a-list-item-meta>
+        </a-list-item>
+      </a-list>
+    </div>
   </Container>
 </template>
 <style scoped>

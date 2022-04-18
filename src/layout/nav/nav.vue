@@ -11,8 +11,7 @@
 
 <template>
   <nav id="nav" class="drag fixed">
-    <navMenu />
-    <navIcon />
+    <div class="title">当前游戏: 暗黑2重置版(存档已同步)</div>
   </nav>
 </template>
 <style scoped>
@@ -23,5 +22,8 @@
     display: flex;
     height: var(--nav-height);
     justify-content: space-between;
+  }
+  .title{
+    padding: 5px 15px;
   }
 </style>
